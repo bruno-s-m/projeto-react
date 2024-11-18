@@ -1,7 +1,7 @@
-import { App } from "../layouts/App";
+import React from 'react';
 
-export const Home = () => (
-  <App>
-    <h1 className="text-xl text-sky-600">Home</h1>
-  </App>
-);
+function Home() {
+  return <h1>Bem-vindo ao seu Twitter Clone!</h1>;
+}
+
+export default Home;
